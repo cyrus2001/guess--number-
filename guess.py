@@ -1,6 +1,10 @@
 import random 
+start = input('please determine the digit range start value')
+end = input('please determine the digit range ending value')
+start = int(start)
+end = int(end)
 
-r = random.randint(1 , 100)
+r = random.randint(start , end)
 while True:
 	count += 1 
 	num = inpit('please guess the random number:')
